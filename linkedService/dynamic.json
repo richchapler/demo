@@ -11,7 +11,7 @@
 		"type": "AzureDataExplorer",
 		"typeProperties": {
 			"endpoint": "@if(equals(linkedService().WorkspaceName,'devsaw')\n ,'https://devdec.westus3.kusto.windows.net'\n ,'https://proddec.westus3.kusto.windows.net'\n)",
-			"database": "devded"
+			"database": "@if(equals(linkedService().WorkspaceName,'devsaw')\n ,'devded'\n ,'prodded'\n)"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",

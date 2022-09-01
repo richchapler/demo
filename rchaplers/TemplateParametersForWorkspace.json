@@ -1,0 +1,15 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"workspaceName": {
+			"value": "rchaplers"
+		},
+		"rchaplers-WorkspaceDefaultSqlServer_connectionString": {
+			"value": ""
+		},
+		"rchaplers-WorkspaceDefaultStorage_properties_typeProperties_url": {
+			"value": "https://rchaplerdls.dfs.core.windows.net"
+		}
+	}
+}

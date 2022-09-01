@@ -1,16 +1,16 @@
 {
 	"name": "rchaplerded",
 	"properties": {
+		"description": "This is a second change and commit",
 		"annotations": [],
 		"type": "AzureDataExplorer",
 		"typeProperties": {
 			"endpoint": "https://rchaplerdec.westus3.kusto.windows.net",
-			"database": "rchaplerded"
+			"database": "rchaplerded2"
 		},
 		"connectVia": {
 			"referenceName": "AutoResolveIntegrationRuntime",
 			"type": "IntegrationRuntimeReference"
-		},
-		"description": "This is a second change and commit"
+		}
 	}
 }
